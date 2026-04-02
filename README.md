@@ -1,2 +1,123 @@
-# Traffic-Light-using-Python-While-Loop-
-A Python Tkinter-based traffic light simulator with real-time countdown and automatic signal transitions.
+# 🚦 Traffic Light Signal Simulator (Python + Tkinter)
+
+A simple GUI-based Traffic Light Simulation built using Python and Tkinter.
+This project visually represents real-world traffic signals with a countdown timer for each light (Green, Yellow, Red).
+
+---
+
+## 📌 Features
+
+* 🚦 Realistic Traffic Light Simulation
+* ⏳ Countdown Timer for each signal
+* 🖼️ Image-based light display (Green, Yellow, Red)
+* 🔄 Continuous automatic cycling
+* 🧠 Event-driven programming using Tkinter (`after()`)
+
+---
+
+## 🛠️ Tech Stack
+
+* **Python**
+* **Tkinter** (for GUI)
+* **Pillow (PIL)** (for image handling)
+
+---
+
+## 📂 Project Structure
+
+```
+Traffic-Light-Simulator/
+│
+├── main.py
+├── green.png
+├── yellow.png
+├── red.png
+└── README.md
+```
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/Traffic-Light-Simulator.git
+cd Traffic-Light-Simulator
+```
+
+### 2. Install dependencies
+
+```bash
+pip install pillow
+```
+
+### 3. Run the program
+
+```bash
+python main.py
+```
+
+---
+
+## 🖼️ Requirements
+
+Make sure these image files are present in the same directory:
+
+* `green.png`
+* `yellow.png`
+* `red.png`
+
+---
+
+## ⚙️ How It Works
+
+* The program cycles through traffic light states:
+
+  * 🟢 Green (15 seconds)
+  * 🟡 Yellow (5 seconds)
+  * 🔴 Red (15 seconds)
+  * 🟡 Yellow (5 seconds)
+* Uses Tkinter’s `after()` method for smooth, non-blocking updates.
+* Updates GUI every second with a countdown timer.
+
+---
+
+## 📸 Screenshot (Optional)
+
+*Add your project screenshot here*
+
+```
+![Traffic Light Screenshot](screenshot.png)
+```
+
+---
+
+## 🔧 Future Improvements
+
+* 🎨 Replace images with animated shapes (Canvas)
+* ⏯️ Add Start/Stop buttons
+* 🚶 Add pedestrian crossing signal
+* 📊 Integrate traffic density logic (AI/ML extension)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Ashish Kumar**
+
+---
+
+⭐ If you like this project, don't forget to star the repository!
