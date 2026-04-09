@@ -28,7 +28,7 @@ This project visually represents real-world traffic signals with a countdown tim
 ### 1. Clone the repository
 
 ```bash
-https://github.com/ashishkumar1812/Traffic-Light-using-Python-While-Loop-.git
+https://github.com/ashishkumardata/Traffic-Light-using-Python-While-Loop-.git
 ```
 
 ### 2. Install dependencies
